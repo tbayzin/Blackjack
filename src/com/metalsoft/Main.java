@@ -37,12 +37,19 @@ public class Main {
             if (playerANSWER.equals("y")) {
 
                 System.out.println("You left game");
-                quitcalculate();
+                CalculateWinChance();
                 break;
+            }
+            else if (playerNum == 21) {
+                System.out.println("YOU WON CONGRATS");
+            }
+
+            else if (playerNum > 21) {
+                System.out.println("Game over. Limit off");
             }
 
 
-            else if (playerNum < 21) {
+            else if (playerNum < 21 ) {
 
                 System.out.println("your new number is " + random_intt + " do you want to quit");
             }
@@ -54,9 +61,9 @@ public class Main {
 
 
 
-    public static void quitcalculate ()  {
+    public static void CalculateWinChance ()  {
 
-    
+
         System.out.println("Your chance of winning was");
     }
 }
