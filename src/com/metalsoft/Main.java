@@ -32,7 +32,7 @@ public class Main {
 
 
 
-            playerNum = playerNum + random_intt;
+                playerNum = playerNum + random_intt;
             String playerANSWER = sc.nextLine();
             if (playerANSWER.equals("y")) {
 
@@ -57,13 +57,15 @@ public class Main {
 
         } while (blackjacknum != playerNum);
 
+
     }
 
+//Calculate winning chance
+    // 1 or 11 issue
+public static int  CalculateWinChance (int playerNum)  {
 
 
-    public static void CalculateWinChance ()  {
+    System.out.println("Your chance of winning was");
+}
 
-
-        System.out.println("Your chance of winning was");
-    }
 }
