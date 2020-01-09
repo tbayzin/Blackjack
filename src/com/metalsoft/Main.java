@@ -32,7 +32,7 @@ public class Main {
 
 
 
-                playerNum = playerNum + random_intt;
+            playerNum = playerNum + random_intt;
             String playerANSWER = sc.nextLine();
             if (playerANSWER.equals("y")) {
 
@@ -60,12 +60,12 @@ public class Main {
 
     }
 
-//Calculate winning chance
+    //Calculate winning chance
     // 1 or 11 issue
-public static int  CalculateWinChance (int playerNum)  {
+    public static int  CalculateWinChance (int playerNum)  {
 
 
-    System.out.println("Your chance of winning was");
-}
+        System.out.println("Your chance of winning was");
+    }
 
 }
