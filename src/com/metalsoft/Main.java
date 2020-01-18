@@ -64,6 +64,7 @@ public class Main {
     // 1 or 11 issue
     public static int  CalculateWinChance (int playerNum)  {
 
+        int playerChance;   
 
         System.out.println("Your chance of winning was");
     }
